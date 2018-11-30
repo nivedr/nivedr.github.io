@@ -1,4 +1,5 @@
 # jemdoc: menu{MENU}{cv.html}, nofooter
+# jemdoc: analytics{UA-130203500-1}
 == Underscore example
 
 You can control the behavior of a link: by default the link opens in a new web broswer tab, but by putting a slash (+\/+) character at the beginning of the link address you can make it open in the current web broswer tab.  
