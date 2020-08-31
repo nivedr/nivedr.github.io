@@ -1,16 +1,17 @@
 # jemdoc: menu{MENU}{index.html}, showsource
+# jemdoc: fwtitle
 # jemdoc: analytics{UA-130203500-1}
 == Nived Rajaraman
 
 ~~~
 {}{img_left}{images/nived-SD.jpg}{Temp}{300}
-~~~
 
 [https://eecs.berkeley.edu/ Electrical Engineering and Computer Science Department],
 [https://www.berkeley.edu/ University of California, Berkeley]
 264 Cory Hall
 Berkeley, California
 Email: first . lastname @berkeley.edu
+~~~
 
 === About me
 
