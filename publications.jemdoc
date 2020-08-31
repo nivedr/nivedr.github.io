@@ -3,9 +3,17 @@
 
 
 
-== Publications and Preprints
+== Publications
 
-Missing Mass of Markov Chains
+Towards the Fundamental Limits of Imitation Learning
+
+Nived Rajaraman, Lin F. Yang, Jiantao Jiao, Kannan Ramachandran
+
+FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning 
+
+Swanand Kadhe, Nived Rajaraman, O. Ozan Koyluoglu, and Kannan Ramchandran
+
+[https://ieeexplore.ieee.org/abstract/document/9174252 "Missing Mass of Markov Chains"]
 
 Prafulla Chandra, Andrew Thangaraj, Nived Rajaraman, Proceedings of the IEEE International Symposium on Information Theory (ISIT), Los Angeles, USA, 2020
 
@@ -16,9 +24,3 @@ Nived Rajaraman, Prafulla Chandra, Andrew Thangaraj, Ananda Theertha Suresh, Pro
 [https://drops.dagstuhl.de/opus/volltexte/2019/11248/ "Robust Correlation Clustering"]
 
 Devvrit, Ravishankar Krishnaswamy, Nived Rajaraman, APPROX 2019
-
-[https://arxiv.org/abs/1812.08617 "Not Just Age but Age and Quality of Information"]
-Nived Rajaraman, and Rahul Vaze, Goonwanth Reddy
-
-[https://arxiv.org/abs/1810.12861 "Submodular Maximization Under A Matroid Constraint: Asking more from an old friend, the Greedy Algorithm"]
-Nived Rajaraman, and Rahul Vaze
