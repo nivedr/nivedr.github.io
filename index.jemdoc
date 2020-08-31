@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{index.html}, showsource
 # jemdoc: analytics{UA-130203500-1}
-== Nived Rajaraman
+= Nived Rajaraman
 
 ~~~
 {}{img_left}{images/nived-SD.jpg}{Temp}{300}
@@ -8,16 +8,26 @@
 [https://eecs.berkeley.edu/ Electrical Engineering and Computer Science Department],\n
 [https://www.berkeley.edu/ University of California, Berkeley]\n
 264 Cory Hall\n
-Berkeley, California\n
-Email: first . lastname @berkeley.edu
+Berkeley, CA 94720-1770\n
+Email: nived [dot] rajaraman [at] berkeley [dot] edu
 ~~~
 
-=== About me
+== About me
 
 I am currently a second year Ph.D. student, affiliated with the BLISS and BAIR labs. My advisors are Profs. Jiantao Jiao and Kannan Ramachandran.
 
 I was previously a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I was fortunate to have [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as my master's thesis advisors.
 
-=== Research
+== Research
 
 I am currently exploring the theory of reinforcement learning. I believe that a succesful work in this area proposes concrete theoretical formulations and ultimately provides intuitions missing in existing practical approaches.
+
+=== Recent Publications
+
+1. Towards the Fundamental Limits of Imitation Learning
+
+Nived Rajaraman, Lin F. Yang, Jiantao Jiao, Kannan Ramachandran
+
+2. FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning 
+
+Swanand Kadhe, Nived Rajaraman, O. Ozan Koyluoglu, and Kannan Ramchandran
