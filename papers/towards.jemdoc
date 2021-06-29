@@ -1,0 +1,16 @@
+# jemdoc: menu{MENU}{toward.html}
+
+=== Toward the Fundamental Limits of Imitation Learning
+
+In sequential decision-making problems, Imitation learning (IL) posits to learn from the behavior of an expert given a collection of demonstrations, in the absence of reward feedback. In the past, several works have studied the performance of supervised learning approaches such as behavior cloning (Ross and Bagnell 2010), interactive approaches such as DAgger (Ross and Bagnell 2011) among others. However, from a theoretical point of view the statistical rates in even the simplest setting of episodic and tabular MDPs was not well understood.
+
+In this paper, we show that when the learner is provided a dataset of N expert trajectories ahead of time, and cannot interact with the MDP, behavior cloning under log-loss is in fact $O( S H^2 \log(N) / N)$ suboptimal compared to the value collected by the expert, even when the expert follows an arbitrary stochastic policy. Here, $S$ is the state space and $H$ is the length of the horizon. If the expert is constrained to be deterministic, this rate is in fact optimal up to logarithmic factors, /even if the learner is allowed to actively query the expert at visited states while interacting with the MDP/. What is more surprising, this rate does not bear any dependence on the number of actions $A$!
+
+The quadratic dependence on the horizon $H$ is known as error-compounding in the literature and is often attributed to the problem of /distribution shift/ for behavior cloning. Indeed, the learner trains a good policy under the expert's (empirical) state distribution, but encounters states under their own rollout distribution. Our work shows that any algorithm, and not just supervised learning approaches, incurs error-compounding in the absence of MDP interaction. This begs the question, what is the /value of MDP interaction/ in Imitation Learning? Is it possible for a learner to break this $H^2$-dependence given access to an accurate model of the transition dynamics?
+
+At first glance, knowledge of the MDP transition may not seem helpful as the learner does not know the actions played by the expert at states unvisited in the dataset. At best the learner can now distinguish between the distributions induced under different actions. However, we show that this view is rather myopic - in the presence of a good model, learners can abundantly generate artificial training data by rolling out the expert policy on known states. This motivates our novel algorithm, Mimic-MD which incurs a suboptimality $O(S H^{3/2}/N)$ when the model is known and the expert is deterministic.
+
+This breaks the error-compounding barrier even in the worst case and shows a provable benefit to interacting with the MDP in terms of reducing the sample complexity requirement of the number of expert demonstrations. In the backdrop of this algorithm, we introduce a formal reduction of Imitation Learning with a known model to the problem of /uniform expert value estimation/ - estimating the value of the expert policy under all reward functions uniformly to bounded error.
+
+ 
+
