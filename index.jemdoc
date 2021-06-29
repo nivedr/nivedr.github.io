@@ -23,12 +23,11 @@ I was previously a dual degree student at the [http://www.ee.iitm.ac.in/ Departm
 
 == Select recent publications
 
-=== Imitation Learning
+==== Imitation Learning
 
+1. *Toward the Fundamental Limits of Imitation Learning* (NeurIPS 2020) [[https://arxiv.org/abs/2009.05990 ArXiv]] [[https://crossminds.ai/video/toward-the-fundamental-limits-of-imitation-learning-606ff01ef43a7f2f827c1759/ video]]
 
-1. /Toward the Fundamental Limits of Imitation Learning/ (NeurIPS 2020) [https://arxiv.org/abs/2009.05990 ArXiv] [https://crossminds.ai/video/toward-the-fundamental-limits-of-imitation-learning-606ff01ef43a7f2f827c1759/ video]
-
-*With Lin F. Yang, Jiantao Jiao and Kannan Ramchandran*
+With /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
 
 In sequential decision-making problems, Imitation learning (IL) posits to learn from the behavior of an expert given a collection of demonstrations, in the absence of reward feedback. In the past, several works have studied the performance of supervised learning approaches such as behavior cloning (Ross and Bagnell 2010), interactive approaches such as DAgger (Ross and Bagnell 2011) among others. However, from a theoretical point of view the statistical rates in even the simplest setting of episodic and tabular MDPs was not well understood.
 
@@ -65,6 +64,6 @@ In contrast, when the MDP transition structure is known to the learner such as i
 We instantiate this reduction in the case of $|A| = 2$ actions and with state-action features are uniformly distributed on the unit sphere. Here, we show that the minimax rate of confidence set linear classification is $\tilde{\Theta} (d^{3/2} / N)$. As a corollary, this result establishes preliminary evidence towards breaking the quadratic-$H$ barrier going beyond the tabular setting.
 
 
-=== /FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning/ [https://arxiv.org/abs/2009.11248 ArXiv]
+=== FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning [https://arxiv.org/abs/2009.11248 ArXiv]
 
 *With Swanand Kadhe, O. Ozan Koyluoglu and Kannan Ramchandran*
