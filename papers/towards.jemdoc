@@ -2,6 +2,8 @@
 
 === Toward the Fundamental Limits of Imitation Learning
 
+With /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
+
 In sequential decision-making problems, Imitation learning (IL) posits to learn from the behavior of an expert given a collection of demonstrations, in the absence of reward feedback. In the past, several works have studied the performance of supervised learning approaches such as behavior cloning (Ross and Bagnell 2010), interactive approaches such as DAgger (Ross and Bagnell 2011) among others. However, from a theoretical point of view the statistical rates in even the simplest setting of episodic and tabular MDPs was not well understood.
 
 In this paper, we show that when the learner is provided a dataset of N expert trajectories ahead of time, and cannot interact with the MDP, behavior cloning under log-loss is in fact $O( S H^2 \log(N) / N)$ suboptimal compared to the value collected by the expert, even when the expert follows an arbitrary stochastic policy. Here, $S$ is the state space and $H$ is the length of the horizon. If the expert is constrained to be deterministic, this rate is in fact optimal up to logarithmic factors, /even if the learner is allowed to actively query the expert at visited states while interacting with the MDP/. What is more surprising, this rate does not bear any dependence on the number of actions $A$!
