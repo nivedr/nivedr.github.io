@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{toward.html}
+# jemdoc: menu{./papers/MENU}{toward.html}
 
 == Toward the Fundamental Limits of Imitation Learning
 

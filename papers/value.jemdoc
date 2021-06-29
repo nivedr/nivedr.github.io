@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{value.html}
+# jemdoc: menu{./papers/MENU}{value.html}
 
 == On the Value of Interaction and Function Approximation in Imitation Learning
 

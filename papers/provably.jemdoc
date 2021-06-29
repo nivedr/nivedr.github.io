@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{provably.html}
+# jemdoc: menu{./papers/MENU}{provably.html}
 
 == Provably Breaking the Quadratic Error Compounding Barrier in Imitation Learning, Optimally
 
