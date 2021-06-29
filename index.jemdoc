@@ -1,6 +1,7 @@
 # jemdoc: menu{MENU}{index.html}
 # jemdoc: analytics{UA-130203500-1}
 
+\n
 = Nived Rajaraman
 ~~~
 {}{img_left}{images/nived-SD.jpg}{Temp}{300}
@@ -16,7 +17,7 @@ Email: nived \[dot\] rajaraman \[at\] berkeley \[dot\] edu
 
 I am currently a second year Ph.D. student, affiliated with the BLISS and BAIR labs. My advisors are Profs. Jiantao Jiao and Kannan Ramachandran.
 
-My research interests lie in the theory of reinforcement learning. I believe that a succesful work in this area proposes concrete theoretical formulations and ultimately provides intuitions missing in existing practical approaches.
+My research interests lie in the theory of reinforcement learning. I believe that a succesful work in this area proposes concrete theoretical formulations and ultimately provides intuitions missing in existing practical approaches. My current research focus is to understand the statistical limits of reinforcement learning in online and offline settings.
 
 I was previously a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I was fortunate to have [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as my master's thesis advisors.
 
@@ -35,6 +36,8 @@ With /Yanjun Han/, /Lin F. Yang/, /Kannan Ramchandran/ and /Jiantao Jiao/
 
 With /Yanjun Han/, /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
 
-4. *FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning* ([https://arxiv.org/abs/2009.11248 ArXiv])
+4. 
+
+5. *FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning* ([https://arxiv.org/abs/2009.11248 ArXiv])
 
 With /Swanand Kadhe/, /O. Ozan Koyluoglu/ and /Kannan Ramchandran/
