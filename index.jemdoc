@@ -19,7 +19,7 @@ I am a 2nd $\to$ 3rd year EECS Ph.D. student, affiliated with the BLISS and BAIR
 
 My research interests lie in the theory of reinforcement learning. I believe that a succesful work in this area proposes concrete theoretical formulations and ultimately provides intuitions missing in existing practical approaches. My current research focus is in understanding the provable advantages of offline datasets for reinforcement learning tasks. 
 
-I have the great fortune of working with two amazing undergrads: [https://www.linkedin.com/in/alex-deweese-7313b9208 Alex Deweese] and [https://www.linkedin.com/in/matt-peng-791a47132 Matt Peng]. Recently, Alex and I have been thinking about optimal algorithms for online RL in tabular and episodic stationary MDPs. Matt and I have been working on finetuning Inverse Reinforcement Learning approaches for precise control tasks to handle bottlenecks.
+I have the great fortune of working with two amazing undergrads: [https://www.linkedin.com/in/alex-deweese-7313b9208 Alex Deweese] and [https://www.linkedin.com/in/matt-peng-791a47132 Matt Peng]. Recently, Alex and I have been thinking about algorithms for online RL achieving the optimal sample complexity in stationary, tabular and episodic MDPs. Matt and I have been working on approaches for finetuning Inverse Reinforcement Learning for high precision control tasks with bottlenecks.
 
 I was previously a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I was fortunate to have [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as my master's thesis advisors.
 
