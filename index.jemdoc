@@ -21,7 +21,7 @@ My research interests lie in the theory of reinforcement learning. Recently I ha
 
 I have the great fortune of working with two amazing undergrads, [https://www.linkedin.com/in/alex-deweese-7313b9208 Alex Deweese] and [https://www.linkedin.com/in/matt-peng-791a47132 Matt Peng]. Recently, Alex and I have been thinking about algorithms for online RL achieving the optimal sample complexity in stationary, tabular and episodic MDPs. Matt and I have been working on approaches for fine-tuning Inverse Reinforcement Learning for high precision control tasks with bottlenecks.
 
-I organize the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS seminar] at Berkeley. Shoot me an email, if you are interested in giving a talk!
+I currently organize the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS seminar] at Berkeley and soon will begin organizing the [http://www.climb.berkeley.edu/seminar CLIMB seminar]. Shoot me an email if you are interested in giving a talk at either venue!
 
 In a previous life, I was a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I am fortunate to have had [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as thesis advisors.
 
@@ -30,17 +30,17 @@ A full list of publications can be accessed [https://scholar.google.com/citation
 
 == Select recent publications
 
-1. [./papers/towards.html *Toward the Fundamental Limits of Imitation Learning*] (NeurIPS 2020) ([https://arxiv.org/abs/2009.05990 ArXiv]) ([https://crossminds.ai/video/toward-the-fundamental-limits-of-imitation-learning-606ff01ef43a7f2f827c1759/ video]) 
+1. [./papers/value.html *On the Value of Interaction and Function Approximation in Imitation Learning*] (NeurIPS 2021)
+
+With /Jingbo Liu/, /Yanjun Han/, /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
+
+2. [./papers/towards.html *Toward the Fundamental Limits of Imitation Learning*] (NeurIPS 2020) ([https://arxiv.org/abs/2009.05990 ArXiv]) ([https://crossminds.ai/video/toward-the-fundamental-limits-of-imitation-learning-606ff01ef43a7f2f827c1759/ video]) 
 
 With /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
 
-2. [./papers/provably.html *Provably Breaking the Quadratic Error Compounding Barrier in Imitation Learning, Optimally*] ([https://arxiv.org/abs/2102.12948 ArXiv])
+3. [./papers/provably.html *Provably Breaking the Quadratic Error Compounding Barrier in Imitation Learning, Optimally*] ([https://arxiv.org/abs/2102.12948 ArXiv])
 
 With /Yanjun Han/, /Lin F. Yang/, /Kannan Ramchandran/ and /Jiantao Jiao/
-
-3. [./papers/value.html *On the Value of Interaction and Function Approximation in Imitation Learning*] (under submission)
-
-With /Jingbo Liu/, /Yanjun Han/, /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
 
 4. *Semi-supervised Active Regression*
  ([https://arxiv.org/abs/2106.06676 ArXiv])
