@@ -15,16 +15,17 @@ Email: nived \[dot\] rajaraman \[at\] berkeley \[dot\] edu
 
 == About me
 
-I am a 2nd $\to$ 3rd year EECS Ph.D. student, affiliated with the BLISS and BAIR labs at Berkeley. I am jointly advised by Profs. Jiantao Jiao and Kannan Ramchandran.
+I am a fourth year Ph.D. student at UC Berkeley, jointly advised by Jiantao Jiao and Kannan Ramchandran. I am affiliated with the BLISS and BAIR labs.
 
-My research interests lie in the theory of reinforcement learning. Recently I have been trying to understanding the fundamental limits of Imitation Learning approaches for RL. I believe that a successful work in this area proposes concrete theoretical formulations and ultimately provides intuitions missing in existing practical approaches. 
+I work on a variety of topics in machine learning with a focus on the statistical and computational aspects of adaptive decision making problems and reinforcement learning. I am also interested in nonconvex optimization and federated learning. I appreciate papers with well motivated theoretical formulations which either explain curious practical phenomena or ultimately provide intuitions missing in existing practical approaches.
 
-I have the great fortune of working with two amazing undergrads, [https://www.linkedin.com/in/alex-deweese-7313b9208 Alex Deweese] and [https://www.linkedin.com/in/matt-peng-791a47132 Matt Peng]. Recently, Alex and I have been thinking about algorithms for online RL achieving the optimal sample complexity in stationary, tabular and episodic MDPs. Matt and I have been working on approaches for fine-tuning Inverse Reinforcement Learning for high precision control tasks with bottlenecks.
+I've had the great fortune of working with two amazing undergrads, [https://www.linkedin.com/in/alex-deweese-7313b9208 Alex Deweese] and [https://www.linkedin.com/in/matt-peng-791a47132 Matt Peng]. Alex and I had been thinking about algorithms for online RL with a focus on achieving optimal sample complexity guarantees. Matt and I worked on implementing performant algorithms for Imitation Learning based on a novel technique known as Replay Estimation.
 
-I currently organize the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS seminar] at Berkeley and soon will begin organizing the [http://www.climb.berkeley.edu/seminar CLIMB seminar]. Shoot me an email if you are interested in giving a talk at either venue!
+I organize the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS seminar] and [http://www.climb.berkeley.edu/seminar CLIMB seminar] at Berkeley. Shoot me an email if you are interested in giving a talk at either venue!
 
-In a previous life, I was a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I am fortunate to have had [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as thesis advisors.
+In a previous life, I was a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I am fortunate to have had [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as thesis advisors and work closely with [https://www.tcs.tifr.res.in/~vaze/ Prof. Rahul Vaze].
 
+*I will be participating in the [https://www.aidslifecycle.org/ AIDS/LifeCycle 2023]*. AIDS/LifeCycle is an annual 575 mile bike ride from SF to LA which aims to raise money for improving HIV/AIDS medical care and awareness. You can support me by clicking [https://do.nr/etse1d here]. Every little bit counts!
 
 A full list of publications can be accessed [https://scholar.google.com/citations?user=ZvX1hXcAAAAJ&hl=en here].
 
