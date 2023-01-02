@@ -21,10 +21,10 @@ In theory, the uncertainty estimate can simply be instantiated as $1$ for a stat
 In the presence of general function approximation, we prove a meta theorem reducing the performance gap of our approach to the parameter estimation error for offline classification (i.e. learning the expert policy). In the case of linear function approximation, our meta theorem shows that the performance gap incurred by Replay Estimation achieves suboptimality gap scaling as $O(d^{5/4} H^{3/2}/N)$, under significantly weaker assumptions compared to prior work. Our algorithm instantiated on several continuous control tasks outperforms existing approaches across a variety of dataset sizes, but especially when the number of samples is heavily constrained.
 
 ~~~
-{}{img_left}{images/noisy_hopper_new.pdf}{Comparison on Noisy Hopper}{250}
+{}{img_left}{../images/noisy_hopper_new.pdf}{Comparison on Noisy Hopper}{250}
 ~~~
 
 
 ~~~
-{}{img_left}{images/noisy_hopper_new.jpg}{Comparison on Noisy Hopper}{250}
+{}{img_left}{../images/noisy_hopper_new.jpg}{Comparison on Noisy Hopper}{250}
 ~~~
