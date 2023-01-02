@@ -19,34 +19,32 @@ I am a fourth year Ph.D. student at UC Berkeley, jointly advised by Jiantao Jiao
 
 I work on a variety of topics in machine learning with a focus on the statistical and computational aspects of adaptive decision making problems and reinforcement learning. I am also interested in nonconvex optimization and federated learning. I appreciate papers with well motivated theoretical formulations which either explain curious practical phenomena or ultimately provide intuitions missing in existing practical approaches.
 
-I've had the great fortune of working with two amazing undergrads, [https://www.linkedin.com/in/alex-deweese-7313b9208 Alex Deweese] and [https://www.linkedin.com/in/matt-peng-791a47132 Matt Peng]. Alex and I had been thinking about algorithms for online RL with a focus on achieving optimal sample complexity guarantees. Matt and I worked on implementing performant algorithms for Imitation Learning based on a novel technique known as Replay Estimation.
-
 I organize the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS seminar] and [http://www.climb.berkeley.edu/seminar CLIMB seminar] at Berkeley. Shoot me an email if you are interested in giving a talk at either venue!
 
 In a previous life, I was a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I am fortunate to have had [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as thesis advisors and work closely with [https://www.tcs.tifr.res.in/~vaze/ Prof. Rahul Vaze].
 
-*I will be participating in the [https://www.aidslifecycle.org/ AIDS LifeCycle 2023]*. You can support me by clicking [https://do.nr/etse1d here]. Every little bit counts!
+*Update 10/22:* I will be participating in [https://www.aidslifecycle.org/ AIDS LifeCycle 2023]. You can support me by clicking [https://do.nr/etse1d here]. Every little bit counts!
 
 A full list of publications can be accessed [https://scholar.google.com/citations?user=ZvX1hXcAAAAJ&hl=en here].
 
 == Select recent publications
 
-1. [./papers/value.html *On the Value of Interaction and Function Approximation in Imitation Learning*] (NeurIPS 2021)
+
+1. [./papers/replay.html *Minimax Optimal Online Imitation Learning via Replay Estimation*] (Neurips 2022)
+
+With /Gokul Swamy/, /Matthew Peng/, /Sanjiban Choudhury/, /J Andrew Bagnell/, /Zhiwei Steven Wu/, /Jiantao Jiao/ and /Kannan Ramchandran/
+
+2. [./papers/ssar.html *Semi-supervised Active Regression*] (Neurips 2022)
+
+With /Devvrit/ and /Pranjal Awasthi/
+
+3. [./papers/value.html *On the Value of Interaction and Function Approximation in Imitation Learning*] (NeurIPS 2021)
 
 With /Jingbo Liu/, /Yanjun Han/, /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
 
-2. [./papers/towards.html *Toward the Fundamental Limits of Imitation Learning*] (NeurIPS 2020) ([https://arxiv.org/abs/2009.05990 ArXiv]) ([https://crossminds.ai/video/toward-the-fundamental-limits-of-imitation-learning-606ff01ef43a7f2f827c1759/ video]) 
+4. [./papers/towards.html *Toward the Fundamental Limits of Imitation Learning*] (NeurIPS 2020) ([https://arxiv.org/abs/2009.05990 ArXiv]) ([https://crossminds.ai/video/toward-the-fundamental-limits-of-imitation-learning-606ff01ef43a7f2f827c1759/ video]) 
 
 With /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
-
-3. [./papers/provably.html *Provably Breaking the Quadratic Error Compounding Barrier in Imitation Learning, Optimally*] ([https://arxiv.org/abs/2102.12948 ArXiv])
-
-With /Yanjun Han/, /Lin F. Yang/, /Kannan Ramchandran/ and /Jiantao Jiao/
-
-4. *Semi-supervised Active Regression*
- ([https://arxiv.org/abs/2106.06676 ArXiv])
-
-With /Devvrit/ and /Pranjal Awasthi/
 
 5. *FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning* ([https://arxiv.org/abs/2009.11248 ArXiv])
 
