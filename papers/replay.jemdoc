@@ -19,12 +19,11 @@ In this paper, we introduce the technique of replay estimation which makes the b
 In theory, the uncertainty estimate can simply be instantiated as $1$ for a states if the BC classifier classifies them with low margin (i.e. the highest two logits are close to each other), and $0$ otherwise. In other words, low margin states are uncertain and high margin states are more certain.
 
 In the presence of general function approximation, we prove a meta theorem reducing the performance gap of our approach to the parameter estimation error for offline classification (i.e. learning the expert policy). In the case of linear function approximation, our meta theorem shows that the performance gap incurred by Replay Estimation achieves suboptimality gap scaling as $O(d^{5/4} H^{3/2}/N)$, under significantly weaker assumptions compared to prior work. Our algorithm instantiated on several continuous control tasks outperforms existing approaches across a variety of dataset sizes, but especially when the number of samples is heavily constrained.
+\n\n
+~~~
+{}{img_left}{../images/noisy_hopper_new.png}{Comparison on Noisy Hopper}{400}
+~~~
 
-~~~
-{}{img_left}{../images/noisy_hopper_new.pdf}{Comparison on Noisy Hopper}{250}
-~~~
-
-
-~~~
-{}{img_left}{../images/noisy_hopper_new.jpg}{Comparison on Noisy Hopper}{250}
-~~~
++Comparison of algorithms on a noisy version of\n
+the "Hopper" Pybullet stochastic control task.\n
+RE shines most in the low data regime.+

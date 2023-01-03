@@ -33,16 +33,17 @@ MathJax.Hub.Config({
 <p>3. Roll out BC on the environment, weighing the observed trajectories by the state-uncertainty of the visited states.</p>
 <p>4. Carry out moment matching against this weighted distribution.</p>
 <p>In theory, the uncertainty estimate can simply be instantiated as \(1\) for a states if the BC classifier classifies them with low margin (i.e. the highest two logits are close to each other), and \(0\) otherwise. In other words, low margin states are uncertain and high margin states are more certain.</p>
-<p>In the presence of general function approximation, we prove a meta theorem reducing the performance gap of our approach to the parameter estimation error for offline classification (i.e. learning the expert policy). In the case of linear function approximation, our meta theorem shows that the performance gap incurred by Replay Estimation achieves suboptimality gap scaling as \(O(d^{5/4} H^{3/2}/N)\), under significantly weaker assumptions compared to prior work. Our algorithm instantiated on several continuous control tasks outperforms existing approaches across a variety of dataset sizes, but especially when the number of samples is heavily constrained.</p>
+<p>In the presence of general function approximation, we prove a meta theorem reducing the performance gap of our approach to the parameter estimation error for offline classification (i.e. learning the expert policy). In the case of linear function approximation, our meta theorem shows that the performance gap incurred by Replay Estimation achieves suboptimality gap scaling as \(O(d^{5/4} H^{3/2}/N)\), under significantly weaker assumptions compared to prior work. Our algorithm instantiated on several continuous control tasks outperforms existing approaches across a variety of dataset sizes, but especially when the number of samples is heavily constrained.
+<br /><br /></p>
 <table class="imgtable"><tr><td>
-<img src="../images/noisy_hopper_new.pdf" alt="Comparison on Noisy Hopper" width="250px" />&nbsp;</td>
+<img src="../images/noisy_hopper_new.png" alt="Comparison on Noisy Hopper" width="400px" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<table class="imgtable"><tr><td>
-<img src="../images/noisy_hopper_new.jpg" alt="Comparison on Noisy Hopper" width="250px" />&nbsp;</td>
-<td align="left"></td></tr></table>
+<p><tt>Comparison of algorithms on a noisy version of<br />
+the &ldquo;Hopper&rdquo; Pybullet stochastic control task.<br />
+RE shines most in the low data regime.</tt></p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-01-02 18:48:46 IST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2023-01-03 10:08:04 IST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
