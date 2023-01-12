@@ -23,7 +23,13 @@ I organize the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS seminar
 
 In a previous life, I was a dual degree student at the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering], [https://www.iitm.ac.in/ IIT Madras]. I am fortunate to have had [https://www.microsoft.com/en-us/research/people/rakri/ Ravishankar Krishnaswamy] and [http://www.ee.iitm.ac.in/~andrew/ Prof. Andrew Thangaraj] as thesis advisors and work closely with [https://www.tcs.tifr.res.in/~vaze/ Prof. Rahul Vaze].
 
-*Update 10/22:* I will be participating in [https://www.aidslifecycle.org/ AIDS LifeCycle 2023]. You can support me by clicking [https://do.nr/etse1d here]. Every little bit counts!
+*Updates*
+
+*1/23*: I presented our recent work on nonlinear bandits at Google Research India and MSR India.
+
+*10/22:* I will be participating in [https://www.aidslifecycle.org/ AIDS LifeCycle 2023]. You can support me by clicking [https://do.nr/etse1d here]. Every little bit counts!
+
+
 
 A full list of publications can be accessed [https://scholar.google.com/citations?user=ZvX1hXcAAAAJ&hl=en here].
 
@@ -46,6 +52,6 @@ With /Jingbo Liu/, /Yanjun Han/, /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramch
 
 With /Lin F. Yang/, /Jiantao Jiao/ and /Kannan Ramchandran/
 
-5. *FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning* ([https://arxiv.org/abs/2009.11248 ArXiv])
+5. [./papers/fastsecagg.html *FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning*] ([https://arxiv.org/abs/2009.11248 ArXiv])
 
 With /Swanand Kadhe/, /O. Ozan Koyluoglu/ and /Kannan Ramchandran/
