@@ -1,13 +1,13 @@
 main:
 
-  - title: "Beyond UCB: Statistical Complexity and Optimal Algorithms for Non-linear Ridge Bandits."
+  - title: "Beyond UCB: Statistical complexity and optimal algorithms for non-linear ridge bandits."
     authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Jiantao Jiao, Kannan Ramchandran
     # conference_short: 
     # conference: Advances in Neural Information Processing Systems 35 (2022)
     pdf: https://arxiv.org/abs/2302.06025
     notes: Submitted to the Annals of Statistics
 
-  - title: "Greedy Pruning with Group Lasso Provably Generalizes for Matrix Sensing."
+  - title: "Greedy pruning with group lasso provably generalizes for matrix sensing."
     authors: <strong>Nived Rajaraman</strong>, Devvrit, Aryan Mokhtari, and Kannan Ramchandran
     # conference_short: 
     # conference: Advances in Neural Information Processing Systems 35 (2022)
@@ -34,7 +34,7 @@ main:
     # conference: Advances in Neural Information Processing Systems 35 (2022)
     pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/08fe4b20d554296e503f5a43795c78d6-Paper-Conference.pdf
 
-  - title: "Spectral Regularization Allows Data-frugal Learning over Combinatorial Spaces."
+  - title: "Spectral regularization allows data-frugal learning over combinatorial spaces."
     authors: Amirali Aghazadeh, <strong>Nived Rajaraman</strong>, Tony Tu, and Kannan Ramchandran
     conference: TMLR
     # conference: Transactions on Machine Learning Research
@@ -52,13 +52,13 @@ main:
     pdf: https://arxiv.org/pdf/2102.12948
     notes: Submitted to the Annals of Statistics
 
-  - title: "Towards the Fundamental Limits of Imitation Learning."
+  - title: "Towards the fundamental limits of imitation learning."
     authors: <strong>Nived Rajaraman</strong>, Lin F. Yang, Jiantao Jiao, Kannan Ramchandran
     conference: NeurIPS 2020
     # conference: Advances in Neural Information Processing Systems 33 (2020)
     pdf: https://arxiv.org/abs/2009.05990
     
-  - title: "FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning."
+  - title: "FastSecAgg: Scalable secure aggregation for privacy-preserving federated learning."
     authors: Swanand Kadhe, <strong>Nived Rajaraman</strong>, O. Ozan Koyluoglu, and Kannan Ramchandran
     conference: ICML Workshop on FL for User Privacy and Data Confidentiality (2020); CCS Workshop on Privacy-Preserving Machine Learning in Practice (2020); ISIT (2021)
     # conference: International Conference on Machine Learning
