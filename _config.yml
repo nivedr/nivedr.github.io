@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Nived Rajaraman"
-  avatar           : "profile.png"
+  avatar           : "nived-SF-trees.jpeg"
   bio              : "PhD student at UC Berkeley, ex-intern at Deepmind"
   location         : "Berkeley, California"
   employer         :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  # twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
