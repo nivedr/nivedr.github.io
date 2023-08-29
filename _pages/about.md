@@ -23,4 +23,4 @@ Updates
 
 *January 2023*: I presented our recent work on nonlinear bandits at Google Research India and MSR India.
 
-*October 2022:* I will be participating in [https://www.aidslifecycle.org/ AIDS LifeCycle 2023]. You can support me by clicking [https://do.nr/etse1d here]. Every little bit counts!
+*October 2022:* I will be participating in [AIDS LifeCycle 2023](https://www.aidslifecycle.org/). You can support me by clicking [here](https://do.nr/etse1d). Every little bit counts!
