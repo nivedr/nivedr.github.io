@@ -23,28 +23,28 @@ main:
 
   - title: "Minimax optimal online imitation learning via replay estimation."
     authors: Gokul Swamy*, <strong>Nived Rajaraman*</strong>, Matt Peng, Sanjiban Choudhury, J. Bagnell, Steven Z. Wu, Jiantao Jiao, and Kannan Ramchandran (* = equal contribution)
-    conference_short: NeurIPS 2022
-    conference: Advances in Neural Information Processing Systems 35 (2022)
+    conference: NeurIPS 2022
+    # conference: Advances in Neural Information Processing Systems 35 (2022)
     code: https://github.com/gkswamy98/replay_est
     pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/2e809adc337594e0fee330a64acbb982-Paper-Conference.pdf
 
   - title: "Semi-supervised active linear regression."
     authors: <strong>Nived Rajaraman</strong>, Devvrit, and Pranjal Awasthi
-    conference_short: NeurIPS 2022
-    conference: Advances in Neural Information Processing Systems 35 (2022)
+    conference: NeurIPS 2022
+    # conference: Advances in Neural Information Processing Systems 35 (2022)
     pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/08fe4b20d554296e503f5a43795c78d6-Paper-Conference.pdf
 
   - title: "Spectral Regularization Allows Data-frugal Learning over Combinatorial Spaces."
     authors: Amirali Aghazadeh, <strong>Nived Rajaraman</strong>, Tony Tu, and Kannan Ramchandran
-    conference_short: TMLR
-    conference: Transactions on Machine Learning Research
+    conference: TMLR
+    # conference: Transactions on Machine Learning Research
     pdf: https://arxiv.org/abs/2210.02604
     code: https://github.com/tonytu16/Walsh-Hadamard-Transform
 
   - title: "On the value of interaction and function approximation in imitation learning."
     authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Lin Yang, Jingbo Liu, Jiantao Jiao, and Kannan Ramchandran
-    conference_short: NeurIPS 2021
-    conference: Advances in Neural Information Processing Systems 34 (2021)
+    conference: NeurIPS 2021
+    # conference: Advances in Neural Information Processing Systems 34 (2021)
     pdf: https://proceedings.neurips.cc/paper/2021/file/09dbc1177211571ef3e1ca961cc39363-Paper.pdf
 
   - title: "Provably breaking the quadratic error compounding barrier in imitation learning, optimally."
@@ -54,13 +54,13 @@ main:
 
   - title: "Towards the Fundamental Limits of Imitation Learning."
     authors: <strong>Nived Rajaraman</strong>, Lin F. Yang, Jiantao Jiao, Kannan Ramchandran
-    conference_short: NeurIPS 2020
-    conference: Advances in Neural Information Processing Systems 33 (2020)
+    conference: NeurIPS 2020
+    # conference: Advances in Neural Information Processing Systems 33 (2020)
     pdf: https://arxiv.org/abs/2009.05990
     
   - title: "FastSecAgg: Scalable Secure Aggregation for Privacy-Preserving Federated Learning."
     authors: Swanand Kadhe, <strong>Nived Rajaraman</strong>, O. Ozan Koyluoglu, and Kannan Ramchandran
-    conference_short: ICML Workshop on Federated Learning for User Privacy and Data Confidentiality (2020); CCS Workshop on Privacy-Preserving Machine Learning in Practice (2020); ISIT (2021)
+    conference: ICML Workshop on FL for User Privacy and Data Confidentiality (2020); CCS Workshop on Privacy-Preserving Machine Learning in Practice (2020); ISIT (2021)
     # conference: International Conference on Machine Learning
     pdf: https://arxiv.org/abs/2009.11248
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
@@ -71,7 +71,7 @@ main:
 
   - title: "Robust correlation clustering."
     authors: Ravishankar Krishnaswamy, Devvrit, and <strong>Nived Rajaraman</strong> (equal contribution)
-    conference_short: APPROX/RANDOM 2019
-    conference: Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (2019)
+    conference: APPROX/RANDOM 2019
+    # conference: Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (2019)
     pdf: https://drops.dagstuhl.de/opus/volltexte/2019/11248/pdf/LIPIcs-APPROX-RANDOM-2019-33.pdf
     
