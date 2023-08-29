@@ -26,13 +26,13 @@ main:
     conference_short: NeurIPS 2022
     conference: Advances in Neural Information Processing Systems 35 (2022)
     code: https://github.com/gkswamy98/replay_est
-    pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/2e809adc337594e0fee330a64acbb982-Paper-Conference.pdf
+    # pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/2e809adc337594e0fee330a64acbb982-Paper-Conference.pdf
 
   - title: "Semi-supervised active linear regression."
     authors: <strong>Nived Rajaraman</strong>, Devvrit, and Pranjal Awasthi
     conference_short: NeurIPS 2022
     conference: Advances in Neural Information Processing Systems 35 (2022)
-    # pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/08fe4b20d554296e503f5a43795c78d6-Paper-Conference.pdf
+    pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/08fe4b20d554296e503f5a43795c78d6-Paper-Conference.pdf
 
     - title: "Spectral Regularization Allows Data-frugal Learning over Combinatorial Spaces."
     authors: Amirali Aghazadeh, <strong>Nived Rajaraman</strong>, Tony Tu, and Kannan Ramchandran
