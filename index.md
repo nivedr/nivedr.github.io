@@ -16,9 +16,15 @@ In a previous life, I was a dual degree student at the [Department of Electrical
 Updates
 ======
 
-*April 2023:* I presented our work on pruning for matrix sensing at Georgia Tech
+*April 2023:* I taught a guest lecture for Statistical Machine Learning (ECE 6254) at Georgia Tech.
+
+*April 2023:* I presented our work on pruning for matrix sensing at Georgia Tech.
 
 *January 2023*: I presented our recent work on nonlinear bandits at Google Research India and MSR India.
+
+*November 2022:* I will be at Neurips 2022. Hit me up if you will be around!
+
+*October 2022:* I gave a talk on nonlinear bandits at the WNCG group at UT Austin.
 
 *October 2022:* I will be participating in [AIDS LifeCycle 2023](https://www.aidslifecycle.org/). You can support me by clicking [here](https://do.nr/etse1d). Every little bit counts!
 
