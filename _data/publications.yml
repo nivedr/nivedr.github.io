@@ -13,7 +13,7 @@ main:
   - title: "Beyond UCB: Statistical complexity and optimal algorithms for non-linear ridge bandits."
     authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Jiantao Jiao, and Kannan Ramchandran
     pdf: https://arxiv.org/abs/2302.06025
-    conference: Accepted with major revision at the Annals of Statistics
+    conference: Annals of Statistics
 
   - title: "Greedy pruning with group lasso provably generalizes for matrix sensing."
     authors: <strong>Nived Rajaraman</strong>, Devvrit, Aryan Mokhtari, and Kannan Ramchandran
