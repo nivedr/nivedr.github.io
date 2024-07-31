@@ -18,7 +18,7 @@ Updates
 
 *Feb 2024:* I presented a poster on our work on tokenization at ITA in sunny San Diego.
 
-*July 2023* I passed my qualifying exam! Thanks to my committee, Profs. [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/), [Kannan Ramchandran](https://people.eecs.berkeley.edu/~kannanr/), [Sasha Rakhlin](https://www.mit.edu/~rakhlin/), and chaired by Prof. [Mike Jordan](https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html).
+*July 2023:* I passed my qualifying exam! My committee was, Profs. [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/), [Kannan Ramchandran](https://people.eecs.berkeley.edu/~kannanr/), [Sasha Rakhlin](https://www.mit.edu/~rakhlin/), and chaired by Prof. [Mike Jordan](https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html).
 
 *April 2023:* I taught a guest lecture for Statistical Machine Learning (ECE 6254) at Georgia Tech.
 
