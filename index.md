@@ -6,7 +6,7 @@ layout: homepage
 
 I am a 5th year PhD student at UC Berkeley, jointly advised by Jiantao Jiao and Kannan Ramchandran, affiliated with the BLISS and BAIR labs. I was previously an intern with [Nevena Lazic](https://research.google/people/104936/) and [Dong Yin](https://dongyin92.github.io/) at Deepmind and with [Ravishankar Krishnaswamy](https://www.microsoft.com/en-us/research/people/rakri/) at MSR.
 
-I work on a variety of topics in the theory of machine learning with a general focus on the statistical and computational aspects of adaptive decision making problems and reinforcement learning. More recently, I have been interested in the application of these techniques in pushing our understanding of large language models. My research has largely focused on using mathematical frameworks to explain curious practical phenomena and ultimately provide intuitions missing in existing approaches.
+I work on a variety of topics in the theory of machine learning with a general focus on the statistical and computational aspects of adaptive decision making problems and reinforcement learning. More recently, I have been interested in the application of these techniques in pushing our understanding of large language models. My research has largely focused on using mathematical frameworks to provide intuitions missing in existing empirical approaches.
 
 I was previously an organizer of the [BLISS](https://bliss.eecs.berkeley.edu/Seminar/index.html) and [CLIMB](http://www.climb.berkeley.edu/seminar) seminars at Berkeley. Shoot me an email if you are interested in giving a talk at either venue!
 
