@@ -4,17 +4,21 @@ layout: homepage
 
 ## About Me
 
-I am a rising 5th year PhD student at UC Berkeley, jointly advised by Jiantao Jiao and Kannan Ramchandran, affiliated with the BLISS and BAIR labs. I was previously an intern with [Nevena Lazic](https://research.google/people/104936/) and [Dong Yin](https://dongyin92.github.io/) at Deepmind and with [Ravishankar Krishnaswamy](https://www.microsoft.com/en-us/research/people/rakri/) at MSR India.
+I am a 5th year PhD student at UC Berkeley, jointly advised by Jiantao Jiao and Kannan Ramchandran, affiliated with the BLISS and BAIR labs. I was previously an intern with [Nevena Lazic](https://research.google/people/104936/) and [Dong Yin](https://dongyin92.github.io/) at Deepmind and with [Ravishankar Krishnaswamy](https://www.microsoft.com/en-us/research/people/rakri/) at MSR.
 
 I work on a variety of topics in the theory of machine learning with a general focus on the statistical and computational aspects of adaptive decision making problems and reinforcement learning. More recently, I have been interested in the application of these techniques in pushing our understanding of large language models. My research has largely focused on using mathematical frameworks to explain curious practical phenomena and ultimately provide intuitions missing in existing approaches.
 
-I am currently an organizer of the [BLISS seminar](https://bliss.eecs.berkeley.edu/Seminar/index.html) and [CLIMB seminar](http://www.climb.berkeley.edu/seminar) at Berkeley. Shoot me an email if you are interested in giving a talk at either venue!
+I was previously an organizer of the [BLISS](https://bliss.eecs.berkeley.edu/Seminar/index.html) and [CLIMB](http://www.climb.berkeley.edu/seminar) seminars at Berkeley. Shoot me an email if you are interested in giving a talk at either venue!
 
 In a previous life, I was a dual degree student at the [Department of Electrical Engineering](http://www.ee.iitm.ac.in/), [IIT Madras](https://www.iitm.ac.in/). I am fortunate to have had [Andrew Thangaraj](http://www.ee.iitm.ac.in/~andrew/) as my thesis advisor and to have worked closely with [Rahul Vaze](https://www.tcs.tifr.res.in/~vaze/).
 
 
 Updates
 ======
+
+*Feb 2024:* I presented a poster on our work on tokenization at ITA in sunny San Diego.
+
+*July 2023* I passed my qualifying exam! Thanks to my committee, Profs. [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/), [Kannan Ramchandran](https://people.eecs.berkeley.edu/~kannanr/), [Sasha Rakhlin](https://www.mit.edu/~rakhlin/), and chaired by Prof. [Mike Jordan](https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html).
 
 *April 2023:* I taught a guest lecture for Statistical Machine Learning (ECE 6254) at Georgia Tech.
 
