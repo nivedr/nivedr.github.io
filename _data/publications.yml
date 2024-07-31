@@ -1,18 +1,25 @@
 main:
 
+  - title: Transformers on Markov data: Constant depth suffices
+    authors: <strong>Nived Rajaraman</strong>, Marco Bondaschi, Ashok Vardhan Makkuva, Kannan Ramchandran, and Michael Gastpar
+    conference: ICML 2024 Workshop on Mechanistic Interpretability 2024
+    pdf: https://arxiv.org/pdf/2407.17686
+    notes: submitted to Neurips 2024
+
+  - title: Toward a Theory of Tokenization in LLMs
+    authors: <strong>Nived Rajaraman</strong>, Jiantao Jiao, and Kannan Ramchandran
+    pdf: https://arxiv.org/pdf/2404.08335
+    notes: submitted to Neurips 2024
+
   - title: "Beyond UCB: Statistical complexity and optimal algorithms for non-linear ridge bandits."
-    authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Jiantao Jiao, Kannan Ramchandran
-    # conference_short: 
-    # conference: Advances in Neural Information Processing Systems 35 (2022)
+    authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Jiantao Jiao, and Kannan Ramchandran
     pdf: https://arxiv.org/abs/2302.06025
-    notes: Submitted to the Annals of Statistics
+    conference: Accepted with major revision at the Annals of Statistics
 
   - title: "Greedy pruning with group lasso provably generalizes for matrix sensing."
     authors: <strong>Nived Rajaraman</strong>, Devvrit, Aryan Mokhtari, and Kannan Ramchandran
-    # conference_short: 
-    # conference: Advances in Neural Information Processing Systems 35 (2022)
+    conference: NeurIPS 2023
     pdf: https://arxiv.org/abs/2303.11453
-    notes: Submitted to NeurIPS 2023
 
   - title: "Sample efficient deep reinforcement learning via local planning."
     authors: Dong Yin, Sridhar Thiagarajan, Nevena Lazic, <strong>Nived Rajaraman</strong>, Botao Hao, and Csaba Szepesvari
@@ -53,7 +60,7 @@ main:
     notes: Submitted to the Annals of Statistics
 
   - title: "Towards the fundamental limits of imitation learning."
-    authors: <strong>Nived Rajaraman</strong>, Lin F. Yang, Jiantao Jiao, Kannan Ramchandran
+    authors: <strong>Nived Rajaraman</strong>, Lin F. Yang, Jiantao Jiao, and Kannan Ramchandran
     conference: NeurIPS 2020
     # conference: Advances in Neural Information Processing Systems 33 (2020)
     pdf: https://arxiv.org/abs/2009.05990
