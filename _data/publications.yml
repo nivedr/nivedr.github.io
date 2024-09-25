@@ -6,8 +6,7 @@ main:
 
   - title: "Transformers on Markov data: Constant depth suffices"
     authors: <strong>Nived Rajaraman</strong>, Marco Bondaschi, Ashok Vardhan Makkuva, Kannan Ramchandran, and Michael Gastpar
-    conference: Neurips 2024
-    conference: ICML 2024 Workshop on Mechanistic Interpretability 2024
+    conference: Neurips 2024; ICML 2024 Workshop on Mechanistic Interpretability 2024
     pdf: https://arxiv.org/pdf/2407.17686
 
   - title: "Beyond UCB: Statistical complexity and optimal algorithms for non-linear ridge bandits."
