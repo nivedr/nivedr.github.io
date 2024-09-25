@@ -1,14 +1,14 @@
 main:
-  - title: "Transformers on Markov data: Constant depth suffices"
-    authors: <strong>Nived Rajaraman</strong>, Marco Bondaschi, Ashok Vardhan Makkuva, Kannan Ramchandran, and Michael Gastpar
-    conference: ICML 2024 Workshop on Mechanistic Interpretability 2024
-    pdf: https://arxiv.org/pdf/2407.17686
-    notes: submitted to Neurips 2024
-
-  - title: Toward a Theory of Tokenization in LLMs
+  - title: "An Analysis of Tokenization: Transformers under Markov Data"
     authors: <strong>Nived Rajaraman</strong>, Jiantao Jiao, and Kannan Ramchandran
     pdf: https://arxiv.org/pdf/2404.08335
-    notes: submitted to Neurips 2024
+    conference: Neurips 2024 (spotlight)
+
+  - title: "Transformers on Markov data: Constant depth suffices"
+    authors: <strong>Nived Rajaraman</strong>, Marco Bondaschi, Ashok Vardhan Makkuva, Kannan Ramchandran, and Michael Gastpar
+    conference: Neurips 2024
+    conference: ICML 2024 Workshop on Mechanistic Interpretability 2024
+    pdf: https://arxiv.org/pdf/2407.17686
 
   - title: "Beyond UCB: Statistical complexity and optimal algorithms for non-linear ridge bandits."
     authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Jiantao Jiao, and Kannan Ramchandran
@@ -28,7 +28,7 @@ main:
     # code: 
 
   - title: "Minimax optimal online imitation learning via replay estimation."
-    authors: Gokul Swamy*, <strong>Nived Rajaraman*</strong>, Matt Peng, Sanjiban Choudhury, J. Bagnell, Steven Z. Wu, Jiantao Jiao, and Kannan Ramchandran (* = equal contribution)
+    authors: Gokul Swamy, <strong>Nived Rajaraman</strong>, Matt Peng, Sanjiban Choudhury, J. Bagnell, Steven Z. Wu, Jiantao Jiao, and Kannan Ramchandran (* = equal contribution)
     conference: NeurIPS 2022
     # conference: Advances in Neural Information Processing Systems 35 (2022)
     code: https://github.com/gkswamy98/replay_est
