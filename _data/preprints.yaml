@@ -1,0 +1,13 @@
+main:
+  - title: "Scaling Test-Time Compute Without Verification or RL is Suboptimal"
+    authors: Amrith Setlur, Nived Rajaraman, Sergey Levine, Aviral Kumar
+
+  - title: "From Markov to Laplace: How Mamba In-context Learns Markov chains"
+    authors: Marco Bondaschi, Nived Rajaraman, Michael Gastpar, Kannan Ramchandran, Caglar Gulcehre, Razvan Pascanu, Ashok Vardhan Makkkuva
+
+  - title: "Computational Intractability of Strategizing against Online Learners"
+    authors: Angelos Assos, Yuval Dagan, <strong>Nived Rajaraman</strong>
+
+  - title: "The Space Complexity of Learning Unlearning Algorithms"
+    authors: Yeshwanth Cherapanamjeri, Sumegha Garg, <strong>Nived Rajaraman</strong>, Ayush Sekhari, and Abhishek Shetty
+

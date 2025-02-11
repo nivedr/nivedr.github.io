@@ -12,11 +12,12 @@ I was previously an organizer of the [BLISS](https://bliss.eecs.berkeley.edu/Sem
 
 In a previous life, I was a dual degree student at the [Department of Electrical Engineering](http://www.ee.iitm.ac.in/), [IIT Madras](https://www.iitm.ac.in/). I am fortunate to have had [Andrew Thangaraj](http://www.ee.iitm.ac.in/~andrew/) as my thesis advisor and to have worked closely with [Rahul Vaze](https://www.tcs.tifr.res.in/~vaze/).
 
+I am on the industry and postdoc job market for 2025. Feel free to reach out if you think I may be a good fit for your team/lab.
 
 Updates
 ======
 
-*Feb 2024:* I presented a poster on our work on tokenization at ITA in sunny San Diego.
+*Jan 2025* I was selected as a CPAL Rising Star for the year 2025.
 
 *July 2023:* I passed my qualifying exam! Thanks to my committee members, Profs. [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/), [Kannan Ramchandran](https://people.eecs.berkeley.edu/~kannanr/), [Sasha Rakhlin](https://www.mit.edu/~rakhlin/), and chaired by Prof. [Mike Jordan](https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html).
 
@@ -32,6 +33,7 @@ Updates
 
 *October 2022:* I will be participating in [AIDS LifeCycle 2023](https://www.aidslifecycle.org/). You can support me by clicking [here](https://do.nr/etse1d). Every little bit counts!
 
+<!-- {% include_relative _includes/preprints.md %} -->
 
 {% include_relative _includes/publications.md %}
 
