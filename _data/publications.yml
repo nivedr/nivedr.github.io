@@ -1,4 +1,8 @@
 main:
+  - title: "Scaling Test-Time Compute Without Verification or RL is Suboptimal"
+    authors: Amrith Setlur, <strong>Nived Rajaraman</strong>, Sergey Levine, Aviral Kumar
+    pdf: https://arxiv.org/abs/2502.12118
+
   - title: "An Analysis of Tokenization: Transformers under Markov Data"
     authors: <strong>Nived Rajaraman</strong>, Jiantao Jiao, and Kannan Ramchandran
     pdf: https://arxiv.org/pdf/2404.08335
