@@ -17,7 +17,7 @@ I am on the industry and postdoc job market for 2025. Feel free to reach out if 
 Updates
 ======
 
-*Jan 2025* I am a CPAL Rising Star for the year 2025.
+*Jan 2025:* I am a CPAL Rising Star for the year 2025.
 
 *July 2023:* I passed my qualifying exam! Thanks to my committee members, Profs. [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/), [Kannan Ramchandran](https://people.eecs.berkeley.edu/~kannanr/), [Sasha Rakhlin](https://www.mit.edu/~rakhlin/), and chaired by Prof. [Mike Jordan](https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html).
 
