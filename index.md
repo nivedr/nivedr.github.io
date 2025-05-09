@@ -15,7 +15,7 @@ In a previous life, I was a dual degree student at the [Department of Electrical
 Updates
 ======
 
-*May 2025:* Organizing a COLT '25 workshop on the [Foundations of Post-training](https://fopt-workshop.github.io/). Check it out and submit your abstracts!
+*May 2025:* Organizing a COLT '25 workshop on the [Foundations of Post-training](https://fopt-workshop.github.io/). Submission deadline: May 19, 2025!
 
 *Jan 2025:* I am a CPAL Rising Star for the year 2025.
 
