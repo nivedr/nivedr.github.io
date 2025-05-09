@@ -12,10 +12,10 @@ I was previously an organizer of the [BLISS](https://bliss.eecs.berkeley.edu/Sem
 
 In a previous life, I was a dual degree student at the [Department of Electrical Engineering](http://www.ee.iitm.ac.in/), [IIT Madras](https://www.iitm.ac.in/). I am fortunate to have had [Andrew Thangaraj](http://www.ee.iitm.ac.in/~andrew/) as my thesis advisor and to have worked closely with [Rahul Vaze](https://www.tcs.tifr.res.in/~vaze/).
 
-I am on the industry and postdoc job market for 2025. Feel free to reach out if you think I may be a good fit for your team/lab.
-
 Updates
 ======
+
+*May 2025* Organizing a COLT '25 workshop on the [Foundations of Post-training](https://fopt-workshop.github.io/). Check it out and submit your abstracts!
 
 *Jan 2025:* I am a CPAL Rising Star for the year 2025.
 

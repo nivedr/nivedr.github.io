@@ -2,6 +2,16 @@ main:
   - title: "Scaling Test-Time Compute Without Verification or RL is Suboptimal"
     authors: Amrith Setlur, <strong>Nived Rajaraman</strong>, Sergey Levine, Aviral Kumar
     pdf: https://arxiv.org/abs/2502.12118
+    conference: ICML 2025 (spotlight)
+
+  - title: "Computational Intractability of Strategizing against Online Learners"
+    authors: Angelos Assos, Yuval Dagan, <strong>Nived Rajaraman</strong>
+    pdf: https://arxiv.org/pdf/2503.04202
+    conference: COLT 2025
+
+  - title: "The Space Complexity of Learning Unlearning Algorithms"
+    authors: Yeshwanth Cherapanamjeri, Sumegha Garg, <strong>Nived Rajaraman</strong>, Ayush Sekhari, and Abhishek Shetty
+    conference: COLT 2025
 
   - title: "An Analysis of Tokenization: Transformers under Markov Data"
     authors: <strong>Nived Rajaraman</strong>, Jiantao Jiao, and Kannan Ramchandran
