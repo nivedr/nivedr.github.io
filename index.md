@@ -15,13 +15,13 @@ In a previous life, I was a dual degree student at the [Department of Electrical
 Updates
 ======
 
-*May 2025* Organizing a COLT '25 workshop on the [Foundations of Post-training](https://fopt-workshop.github.io/). Check it out and submit your abstracts!
+*May 2025:* Organizing a COLT '25 workshop on the [Foundations of Post-training](https://fopt-workshop.github.io/). Check it out and submit your abstracts!
 
 *Jan 2025:* I am a CPAL Rising Star for the year 2025.
 
 *July 2023:* I passed my qualifying exam! Thanks to my committee members, Profs. [Jiantao Jiao](https://people.eecs.berkeley.edu/~jiantao/), [Kannan Ramchandran](https://people.eecs.berkeley.edu/~kannanr/), [Sasha Rakhlin](https://www.mit.edu/~rakhlin/), and chaired by Prof. [Mike Jordan](https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html).
 
-*April 2023:* I taught a guest lecture for Statistical Machine Learning (ECE 6254) at Georgia Tech.
+<!-- *April 2023:* I taught a guest lecture for Statistical Machine Learning (ECE 6254) at Georgia Tech.
 
 *April 2023:* I presented our work on pruning for matrix sensing at Georgia Tech.
 
@@ -29,9 +29,9 @@ Updates
 
 *November 2022:* I will be at Neurips 2022. Hit me up if you will be around!
 
-*October 2022:* I gave a talk on nonlinear bandits at the WNCG group at UT Austin.
+*October 2022:* I gave a talk on nonlinear bandits at the WNCG group at UT Austin. -->
 
-*October 2022:* I will be participating in [AIDS LifeCycle 2023](https://www.aidslifecycle.org/). You can support me by clicking [here](https://do.nr/etse1d). Every little bit counts!
+<!-- *October 2022:* I will be participating in [AIDS LifeCycle 2023](https://www.aidslifecycle.org/). You can support me by clicking [here](https://do.nr/etse1d). Every little bit counts! -->
 
 <!-- {% include_relative _includes/preprints.md %} -->
 
