@@ -4,18 +4,16 @@ layout: homepage
 
 ## About Me
 
-I am a 5th year PhD student at UC Berkeley, jointly advised by Jiantao Jiao and Kannan Ramchandran, affiliated with the BLISS and BAIR labs. I was previously an intern with [Nevena Lazic](https://research.google/people/104936/) and [Dong Yin](https://dongyin92.github.io/) at Deepmind and with [Ravishankar Krishnaswamy](https://www.microsoft.com/en-us/research/people/rakri/) at MSR.
+I am an incoming postdoc at [Microsoft Research NYC](https://www.microsoft.com/en-us/research/theme/reinforcement-learning-group/) in the Reinforcement Learning group. I recently finished my PhD at UC Berkeley, advised by Jiantao Jiao and Kannan Ramchandran, affiliated with the BLISS and BAIR labs. I was previously an intern with [Nevena Lazic](https://research.google/people/104936/) and [Dong Yin](https://dongyin92.github.io/) at Deepmind and with [Ravishankar Krishnaswamy](https://www.microsoft.com/en-us/research/people/rakri/) at MSR. While at Berkeley, I organized the [BLISS](https://bliss.eecs.berkeley.edu/Seminar/index.html) and [CLIMB](http://www.climb.berkeley.edu/seminar) seminars.
 
-I work on a variety of topics in the theory of machine learning with a general focus on the statistical and computational aspects of adaptive decision making problems and reinforcement learning. More recently, I have been interested in the application of these techniques in pushing our understanding of large language models. My research has largely focused on using mathematical frameworks to provide intuitions missing in existing empirical approaches.
-
-I was previously an organizer of the [BLISS](https://bliss.eecs.berkeley.edu/Seminar/index.html) and [CLIMB](http://www.climb.berkeley.edu/seminar) seminars at Berkeley. Shoot me an email if you are interested in giving a talk at either venue!
+I work on a variety of topics in the theory and practice of machine learning with a general focus on the statistical and computational aspects of adaptive decision making problems and reinforcement learning. More recently, I have been interested in the application of these techniques in pushing our understanding of large language models. My research has largely focused on using mathematical frameworks to provide intuitions missing in existing empirical approaches.
 
 In a previous life, I was a dual degree student at the [Department of Electrical Engineering](http://www.ee.iitm.ac.in/), [IIT Madras](https://www.iitm.ac.in/). I am fortunate to have had [Andrew Thangaraj](http://www.ee.iitm.ac.in/~andrew/) as my thesis advisor and to have worked closely with [Rahul Vaze](https://www.tcs.tifr.res.in/~vaze/).
 
 Updates
 ======
 
-*May 2025:* Organizing a COLT '25 workshop on the [Foundations of Post-training](https://fopt-workshop.github.io/). Submission deadline: May 19, 2025!
+*May 2025:* Organizing a COLT '25 workshop on the [Foundations of Post-training](https://fopt-workshop.github.io/). Submission deadline: May 23, 2025!
 
 *Jan 2025:* I am a CPAL Rising Star for the year 2025.
 
