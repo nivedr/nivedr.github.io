@@ -1,84 +1,92 @@
 main:
+  - title: "From Markov to Laplace: How Mamba In-context Learns Markov chains"
+    authors: M. Bondaschi, <strong>N. Rajaraman</strong>, M. Gastpar, K. Ramchandran, C. Gulcehre, R. Pascanu, A. V. Makkuva
+    conference: ICLR 2026 (oral)
+
   - title: "Scaling Test-Time Compute Without Verification or RL is Suboptimal"
-    authors: Amrith Setlur, <strong>Nived Rajaraman</strong>, Sergey Levine, Aviral Kumar
+    authors: A. Setlur, <strong>N. Rajaraman</strong>, S. Levine, A. Kumar
     pdf: https://arxiv.org/abs/2502.12118
     conference: ICML 2025 (spotlight)
 
+  - title: "SPECS: Faster Test-Time Scaling through Speculative Drafts"
+    authors: M. Cemri, <strong>N. Rajaraman</strong>, R. Tiwari, X. Liu, K. Keutzer, I. Stoica, K. Ramchandran, A. Beirami, Z. Sun
+    conference: ICML 2025 Workshop on Efficient Systems for Foundation Models (ES-FOMO III)
+
   - title: "Computational Intractability of Strategizing against Online Learners"
-    authors: Angelos Assos, Yuval Dagan, <strong>Nived Rajaraman</strong>
+    authors: A. Assos<sup>&alpha;</sup>, Y. Dagan<sup>&alpha;</sup>, <strong>N. Rajaraman</strong><sup>&alpha;</sup>
     pdf: https://arxiv.org/pdf/2503.04202
     conference: COLT 2025
 
   - title: "The Space Complexity of Learning Unlearning Algorithms"
-    authors: Yeshwanth Cherapanamjeri, Sumegha Garg, <strong>Nived Rajaraman</strong>, Ayush Sekhari, and Abhishek Shetty
+    authors: Y. Cherapanamjeri, S. Garg, <strong>N. Rajaraman</strong>, A. Sekhari, A. Shetty
     conference: COLT 2025
 
   - title: "An Analysis of Tokenization: Transformers under Markov Data"
-    authors: <strong>Nived Rajaraman</strong>, Jiantao Jiao, and Kannan Ramchandran
+    authors: <strong>N. Rajaraman</strong>, J. Jiao, K. Ramchandran
     pdf: https://arxiv.org/pdf/2404.08335
     conference: Neurips 2024 (spotlight)
 
   - title: "Transformers on Markov data: Constant depth suffices"
-    authors: <strong>Nived Rajaraman</strong>, Marco Bondaschi, Ashok Vardhan Makkuva, Kannan Ramchandran, and Michael Gastpar
+    authors: <strong>N. Rajaraman</strong>, M. Bondaschi, A. V. Makkuva, K. Ramchandran, M. Gastpar
     conference: Neurips 2024; ICML 2024 Workshop on Mechanistic Interpretability 2024
     pdf: https://arxiv.org/pdf/2407.17686
 
-  - title: "Beyond UCB: Statistical complexity and optimal algorithms for non-linear ridge bandits."
-    authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Jiantao Jiao, and Kannan Ramchandran
+  - title: "Beyond UCB: Statistical complexity and optimal algorithms for non-linear ridge bandits"
+    authors: <strong>N. Rajaraman</strong>, Y. Han, J. Jiao, K. Ramchandran
     pdf: https://arxiv.org/abs/2302.06025
     conference: Annals of Statistics
 
-  - title: "Greedy pruning with group lasso provably generalizes for matrix sensing."
-    authors: <strong>Nived Rajaraman</strong>, Devvrit, Aryan Mokhtari, and Kannan Ramchandran
+  - title: "Greedy pruning with group lasso provably generalizes for matrix sensing"
+    authors: <strong>N. Rajaraman</strong>, Devvrit, A. Mokhtari, K. Ramchandran
     conference: NeurIPS 2023
     pdf: https://arxiv.org/abs/2303.11453
 
-  - title: "Sample efficient deep reinforcement learning via local planning."
-    authors: Dong Yin, Sridhar Thiagarajan, Nevena Lazic, <strong>Nived Rajaraman</strong>, Botao Hao, and Csaba Szepesvari
+  - title: "Sample efficient deep reinforcement learning via local planning"
+    authors: D. Yin, S. Thiagarajan, N. Lazic, <strong>N. Rajaraman</strong>, B. Hao, C. Szepesvari
     # conference_short: NeurIPS 2022
     # conference: Advances in Neural Information Processing Systems 35 (2022)
     pdf: https://arxiv.org/abs/2301.12579
     # code: 
 
-  - title: "Minimax optimal online imitation learning via replay estimation."
-    authors: Gokul Swamy, <strong>Nived Rajaraman</strong>, Matt Peng, Sanjiban Choudhury, J. Bagnell, Steven Z. Wu, Jiantao Jiao, and Kannan Ramchandran (* = equal contribution)
+  - title: "Minimax optimal online imitation learning via replay estimation"
+    authors: G. Swamy*, <strong>N. Rajaraman*</strong>, M. Peng, S. Choudhury, J. Bagnell, S. Z. Wu, J. Jiao, K. Ramchandran
     conference: NeurIPS 2022
     # conference: Advances in Neural Information Processing Systems 35 (2022)
     code: https://github.com/gkswamy98/replay_est
     pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/2e809adc337594e0fee330a64acbb982-Paper-Conference.pdf
 
-  - title: "Semi-supervised active linear regression."
-    authors: <strong>Nived Rajaraman</strong>, Devvrit, and Pranjal Awasthi
+  - title: "Semi-supervised active linear regression"
+    authors: <strong>N. Rajaraman</strong>, Devvrit, P. Awasthi
     conference: NeurIPS 2022
     # conference: Advances in Neural Information Processing Systems 35 (2022)
     pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/08fe4b20d554296e503f5a43795c78d6-Paper-Conference.pdf
 
-  - title: "Spectral regularization allows data-frugal learning over combinatorial spaces."
-    authors: Amirali Aghazadeh, <strong>Nived Rajaraman</strong>, Tony Tu, and Kannan Ramchandran
+  - title: "Spectral regularization allows data-frugal learning over combinatorial spaces"
+    authors: A. Aghazadeh, <strong>N. Rajaraman</strong>, T. Tu, K. Ramchandran
     conference: TMLR
     # conference: Transactions on Machine Learning Research
     pdf: https://arxiv.org/abs/2210.02604
     code: https://github.com/tonytu16/Walsh-Hadamard-Transform
 
-  - title: "On the value of interaction and function approximation in imitation learning."
-    authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Lin Yang, Jingbo Liu, Jiantao Jiao, and Kannan Ramchandran
+  - title: "On the value of interaction and function approximation in imitation learning"
+    authors: <strong>N. Rajaraman</strong>, Y. Han, L. Yang, J. Liu, J. Jiao, K. Ramchandran
     conference: NeurIPS 2021
     # conference: Advances in Neural Information Processing Systems 34 (2021)
     pdf: https://proceedings.neurips.cc/paper/2021/file/09dbc1177211571ef3e1ca961cc39363-Paper.pdf
 
-  - title: "Provably breaking the quadratic error compounding barrier in imitation learning, optimally."
-    authors: <strong>Nived Rajaraman</strong>, Yanjun Han, Lin F. Yang, Kannan Ramchandran, and Jiantao Jiao
+  - title: "Provably breaking the quadratic error compounding barrier in imitation learning, optimally"
+    authors: <strong>N. Rajaraman</strong>, Y. Han, L. F. Yang, K. Ramchandran, J. Jiao
     pdf: https://arxiv.org/pdf/2102.12948
     notes: Submitted to the Annals of Statistics
 
-  - title: "Towards the fundamental limits of imitation learning."
-    authors: <strong>Nived Rajaraman</strong>, Lin F. Yang, Jiantao Jiao, and Kannan Ramchandran
+  - title: "Towards the fundamental limits of imitation learning"
+    authors: <strong>N. Rajaraman</strong>, L. F. Yang, J. Jiao, K. Ramchandran
     conference: NeurIPS 2020
     # conference: Advances in Neural Information Processing Systems 33 (2020)
     pdf: https://arxiv.org/abs/2009.05990
     
-  - title: "FastSecAgg: Scalable secure aggregation for privacy-preserving federated learning."
-    authors: Swanand Kadhe, <strong>Nived Rajaraman</strong>, O. Ozan Koyluoglu, and Kannan Ramchandran
+  - title: "FastSecAgg: Scalable secure aggregation for privacy-preserving federated learning"
+    authors: S. Kadhe, <strong>N. Rajaraman</strong>, O. O. Koyluoglu, K. Ramchandran
     conference: ICML Workshop on FL for User Privacy and Data Confidentiality (2020); CCS Workshop on Privacy-Preserving Machine Learning in Practice (2020); ISIT (2021)
     # conference: International Conference on Machine Learning
     pdf: https://arxiv.org/abs/2009.11248
@@ -88,8 +96,8 @@ main:
     # notes: Oral Presentation
     # image: ./assets/img/teaser_example.png
 
-  - title: "Robust correlation clustering."
-    authors: Ravishankar Krishnaswamy, Devvrit, and <strong>Nived Rajaraman</strong> (equal contribution)
+  - title: "Robust correlation clustering"
+    authors: R. Krishnaswamy<sup>&alpha;</sup>, Devvrit*&thinsp;<sup>&alpha;</sup>, <strong>N. Rajaraman*</strong>&thinsp;<sup>&alpha;</sup>
     conference: APPROX/RANDOM 2019
     # conference: Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (2019)
     pdf: https://drops.dagstuhl.de/opus/volltexte/2019/11248/pdf/LIPIcs-APPROX-RANDOM-2019-33.pdf

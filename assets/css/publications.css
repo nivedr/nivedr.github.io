@@ -1,82 +1,216 @@
-.badge {
-    display: inline-block;
-    padding: 0.25em 0.4em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+/* ── Color Tokens ── */
+:root {
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: rgba(181, 9, 172, 0.05);
+  --global-text-color: #000000;
+  --global-text-color-light: #828282;
+  --global-theme-color: #1a5276;
+  --global-hover-color: #2980b9;
+  --global-footer-bg-color: #1c1c1c;
+  --global-footer-text-color: #e8e8e8;
+  --global-footer-link-color: #ffffff;
+  --global-distill-app-color: #828282;
+  --pub-bg-hover: rgba(26, 82, 118, 0.04);
+  --pub-border: #e8ecf0;
+  --pub-venue-color: #1a5276;
 }
-
-.badge {
-    color: #fff !important;
-    border-radius: 0.125rem;
-    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-}
-
-:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
-
-@media (prefers-color-scheme: dark) { :root { --global-theme-color: rgb(36, 150, 203);}}
-
-blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
-
-@media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
-
-.publications { margin-top: 2rem; }
-
-.publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
-
-.publications h2 { margin-bottom: 1rem; }
-
-.publications h2 span { font-size: 1.5rem; }
-
-.publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; margin-top: 2rem; margin-bottom: 0rem; text-align: right; }
-
-.publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
-
-.publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
-
-.publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }
-
-.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; position: absolute; top: 8px; left: 16px; }
-
-.publications ol.bibliography li .abbr abbr a { color: white; }
-
-.publications ol.bibliography li .abbr abbr a:hover { text-decoration: none; }
-
-.publications ol.bibliography li .abbr .award { color: var(--global-theme-color) !important; border: 1px solid var(--global-theme-color); }
-
-.publications ol.bibliography li .title { font-weight: bolder; }
-
-.publications ol.bibliography li .author a { border-bottom: 1px var(--global-theme-color); }
-
-.publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
-
-.publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
-
-.publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
 
 @media (prefers-color-scheme: dark) {
-.publications ol.bibliography li .links a.btn { color: #FFFFFF; border: 1px solid #FFFFFF; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
-
+  :root {
+    --global-theme-color: rgb(36, 150, 203);
+    --global-hover-color: rgb(80, 180, 220);
+    --pub-bg-hover: rgba(36, 150, 203, 0.08);
+    --pub-border: #353640;
+    --pub-venue-color: rgb(36, 150, 203);
   }
+}
 
-.publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+/* ── Blockquote ── */
+blockquote {
+  background: var(--global-bg-color);
+  border-left: 2px solid var(--global-theme-color);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 1.2rem;
+}
 
-.publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
+/* ── Publications Container ── */
+.publications {
+  margin-top: 1.5rem;
+}
 
-.publications ol.bibliography li .hidden p { line-height: 1.4em; margin: 10px; }
+.publications h2 {
+  margin-bottom: 1rem;
+}
 
-.publications ol.bibliography li .hidden pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
+.pub-item .pub-content {
+  margin: 0;
+  padding: 0;
+}
 
-.publications ol.bibliography li .hidden.open { max-height: 100em; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
+.pub-item .pub-content > div {
+  margin: 0;
+  padding: 0;
+}
 
-.publications ol.bibliography li div.abstract.hidden { border: dashed 1px var(--global-bg-color); }
+/* ── Bibliography List ── */
+.publications ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-.publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
+.publications ol.bibliography li {
+  margin-bottom: 0;
+  padding: 0;
+}
 
-.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+/* ── Individual Publication Item ── */
+.pub-item {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--pub-border);
+  border-left: 3px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.2s ease, border-left-color 0.25s ease;
+}
+
+.pub-item:hover {
+  background-color: var(--pub-bg-hover);
+  border-left-color: var(--global-theme-color);
+}
+
+.publications ol.bibliography li:last-child .pub-item {
+  border-bottom: none;
+}
+
+/* ── Title Row (title + inline links) ── */
+.pub-item .title-row {
+  margin: 0;
+  padding: 0;
+  line-height: 1.35;
+}
+
+.pub-item .title {
+  font-weight: 600;
+  font-size: 1.08rem;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-item .title a {
+  color: var(--global-text-color, #222);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.pub-item .title a:hover {
+  color: var(--global-theme-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-item .title a {
+    color: #e8e8e8;
+  }
+}
+
+/* ── Inline Links (pdf, code, etc.) ── */
+.pub-item .inline-links {
+  display: inline;
+  white-space: nowrap;
+  margin-left: 4px;
+}
+
+.pub-link {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0;
+  color: var(--global-theme-color) !important;
+  text-decoration: none !important;
+  transition: opacity 0.15s ease;
+  border: none;
+  background: none;
+  opacity: 0.5;
+}
+
+.pub-link:hover {
+  opacity: 1;
+}
+
+.pub-item .inline-links .pub-link + .pub-link::before {
+  content: "·";
+  margin-right: 3px;
+  opacity: 0.4;
+  font-weight: 400;
+}
+
+/* ── Authors ── */
+.pub-item .author {
+  font-size: 0.94rem;
+  color: #666;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-item .author {
+    color: #999;
+  }
+}
+
+.pub-item .author strong {
+  color: #333;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-item .author strong {
+    color: #ddd;
+  }
+}
+
+/* ── Venue / Conference ── */
+.pub-item .venue {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--pub-venue-color);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.01em;
+}
+
+/* ── Notes (e.g., "Submitted to…") ── */
+.pub-note {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+/* ── Badge (kept for backward compat) ── */
+.badge {
+  display: inline-block;
+  padding: 0.2em 0.55em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 3px;
+  color: #fff !important;
+  background-color: var(--global-theme-color);
+}
+
+/* ── Responsive ── */
+@media print, screen and (max-width: 480px) {
+  .pub-item {
+    padding: 8px 8px;
+  }
+  .pub-item .title {
+    font-size: 0.88rem;
+  }
+}
