@@ -1,57 +1,277 @@
-# Basic Information 
+# Site settings
 title: Nived Rajaraman
-position: Postdoctoral Researcher
-affiliation: Microsoft Research NYC
-email: nrajaraman@microsoft.com
+first_name: Nived
+middle_name:
+last_name: Rajaraman
+contact_note:
+description: >
+  I am a postdoc at Microsoft Research NYC in the Reinforcement Learning group. I recently finished my PhD at UC Berkeley, advised by Jiantao Jiao and Kannan Ramchandran, affiliated with the BLISS and BAIR labs.
+keywords: machine learning, reinforcement learning, language models, adaptive decision making
+lang: en
+icon: favicon.jpg
+apple_touch_icon:
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+url: https://nivedr.github.io
+baseurl:
+last_updated: false
+back_to_top: true
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?hl=en&user=ZvX1hXcAAAAJ&view_op=list_works&sortby=pubdate
-# cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/nivedr
-# linkedin: https://www.linkedin.com/
-# twitter: https://twitter.com/
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/nived.jpg
-favicon: ./assets/img/favicon.jpg
-favicon_dark: ./assets/img/favicon-dark.jpg
+# al-folio v1.2 runtime
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  features:
+    cv:
+      enabled: false
+    distill:
+      enabled: false
+  compat:
+    bootstrap:
+      enabled: false
+      support_window: v1.0-v1.2
+      deprecates_in: v1.3
+      removed_in: v2.0
+  upgrade:
+    channel: stable
+    auto_apply_safe_fixes: false
 
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
+# Layout
+navbar_fixed: true
+footer_fixed: false
+max_width: 930px
+search_enabled: true
+socials_in_search: true
+posts_in_search: false
+bib_search: true
 
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
+# Metadata and privacy
+serve_og_meta: false
+serve_schema_org: false
+og_image:
+protect_email: false
+analytics:
+  google:
+  cronitor:
+  pirsch:
+  openpanel:
+  cloudflare:
+enable_simple_analytics: false
+enable_cookie_consent: false
 
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+# Collections
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
 
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-# google_analytics: UA-111540567-4
+# Jekyll
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: highlight
 
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
-
-# The following files will be removed from the generated website.
+include: ["_pages"]
 exclude:
+  - AGENTS.md
+  - al-folio-upgrade-report.md
+  - bin/
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
-  - minimal-light.gemspec
-  - html_source_file/
+  - package.json
+  - package-lock.json
+  - README.md
+  - STAGING.md
+  - vendor/
+keep_files:
+  - CNAME
+  - .nojekyll
+
+theme: al_folio_core
+
+plugins:
+  - jekyll-3rd-party-libraries
+  - jekyll-archives-v2
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_folio_distill
+  - al_folio_upgrade
+  - al_folio_bootstrap_compat
+  - al_cookie
+  - al_analytics
+  - al_citations
+  - al_ext_posts
+  - al_img_tools
+  - al_search
+  - al_charts
+  - al_math
+  - al_comments
+  - al_newsletter
+  - al_email_protect
+  - al_marimo
+  - al_rtl
+
+defaults:
+  - scope:
+      path: assets
+    values:
+      sitemap: false
+
+sass:
+  style: compressed
+
+jekyll-minifier:
+  compress_javascript: false
+  compress_css: false
+  exclude: ["robots.txt"]
+
+terser:
+  compress:
+    drop_console: true
+
+# Publications
+scholar:
+  last_name: [Rajaraman, Rajaraman*, Rajaramanᵅ, Rajaraman*ᵅ]
+  first_name: [Nived, N.]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+
+filtered_bibtex_keywords:
+  [abbr, abstract, additional_info, annotation, bibtex_show, code, pdf, selected, tags, url, website]
+
+max_author_limit:
+more_authors_animation_delay: 10
+enable_publication_thumbnails: false
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
+imagemagick:
+  enabled: true
+  widths: [480, 800, 1400]
+  input_directories: [assets/img/]
+  input_formats: [".jpg", ".jpeg", ".png", ".tiff", ".gif"]
+  output_formats:
+    webp: "-auto-orient -quality 85"
+
+lazy_loading_images: true
+enable_darkmode: true
+enable_navbar_social: false
+enable_math: false
+enable_medium_zoom: false
+enable_progressbar: true
+
+third_party_libraries:
+  download: false
+  fontawesome:
+    integrity:
+      css: "sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
+    version: "7.2.0"
+  academicons:
+    integrity:
+      css: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
+    version: "1.9.5"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  highlightjs:
+    integrity:
+      css:
+        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw6Z/6ksAqDCM8GY="
+        dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+    url:
+      css:
+        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
+        dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
+    version: "11.9.0"
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+    version: "3.6.0"
+  mdb:
+    integrity:
+      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+      css_map: "sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM="
+      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+      js_map: "sha256-UPgyn4YNsT0khbK5553QwhnlbTlU0aa+igyc6qP1bE="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
+      css_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
+      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
+    version: "4.20.0"
+  scholar-icons:
+    integrity:
+      css: "sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/scholar-icons@{{version}}/css/scholar-icons.css"
+    version: "1.0.3"
+  vanilla-back-to-top:
+    integrity:
+      js: "sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/vanilla-back-to-top@{{version}}/dist/vanilla-back-to-top.min.js"
+    version: "7.2.1"

@@ -1,0 +1,10 @@
+---
+version: 1
+overrides:
+  assets/js/bibsearch.js:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: assets/js/bibsearch.js
+    upstream_sha256: 959f7ee592686a73204b936eada490fe07f7bb6b723a8c8ee98266e4a71dd3fb
+    local_sha256: 372076337bdcc5d22a82863bc4be4f597ba341b9cefa917d03a35c903fe9eea9
+    acknowledged_at: '2026-09-22'

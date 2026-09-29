@@ -1,0 +1,10 @@
+services:
+  jekyll:
+    image: amirpourmand/al-folio@sha256:31a8af846095e7bbb43981019af0400c3a3da79c9d6c44a5e5b871cfe6a115e7
+    command: /srv/jekyll/bin/entry_point.sh
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development

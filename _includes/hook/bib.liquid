@@ -1,0 +1,20 @@
+{% assign entryyear = '' %}
+{% if proceedings contains entry.type %}
+  {% assign entrytype = entrytype | replace_first: '<em>In ', '<em>' %}
+{% endif %}
+{% if entry.type == 'article' and entry.volume %}
+  {% capture entrytype %}{{ entrytype }} {{ entry.volume }}{% if entry.number %} ({{ entry.number }}){% endif %}{% if entry.pages %}, {{ entry.pages | replace: '--', '&ndash;' }}{% endif %}{% endcapture %}
+{% endif %}
+{% if entry.url %}
+  <span class="publication-title-target" data-url="{{ entry.url | escape }}"></span>
+{% endif %}
+{% if entry.tags %}
+  {% assign publication_tags = entry.tags | split: ',' %}
+  <span class="publication-tags" aria-label="Research categories">
+    {% if publication_tags contains 'reasoning' %}<span class="publication-tag" role="img" aria-label="Reasoning agents" title="Reasoning agents">🤖<span class="publication-search-term" aria-hidden="true">Reasoning agents</span></span>{% endif %}
+    {% if publication_tags contains 'architecture' %}<span class="publication-tag" role="img" aria-label="Model architecture" title="Model architecture">🧬<span class="publication-search-term" aria-hidden="true">Model architecture</span></span>{% endif %}
+    {% if publication_tags contains 'interactive' %}<span class="publication-tag" role="img" aria-label="Interactive decision making" title="Interactive decision making">🧠<span class="publication-search-term" aria-hidden="true">Interactive decision making</span></span>{% endif %}
+    {% if publication_tags contains 'statistics' %}<span class="publication-tag" role="img" aria-label="Statistics and information theory" title="Statistics and information theory">📊<span class="publication-search-term" aria-hidden="true">Statistics and information theory</span></span>{% endif %}
+    {% if publication_tags contains 'privacy' %}<span class="publication-tag" role="img" aria-label="Safety and privacy" title="Safety and privacy">🔐<span class="publication-search-term" aria-hidden="true">Safety and privacy Safety &amp; privacy</span></span>{% endif %}
+  </span>
+{% endif %}
