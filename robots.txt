@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://nivedr.github.io/sitemap.xml

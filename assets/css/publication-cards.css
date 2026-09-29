@@ -1,0 +1,138 @@
+.publication-tag-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  margin: -0.25rem 0 0.75rem;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+}
+
+.publication-tag-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.publication-tag-legend .publication-tag {
+  font-size: 0.95rem;
+}
+
+.publication-author-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+  margin: 0 0 1.25rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+}
+
+.publication-author-legend sup {
+  color: var(--global-text-color);
+}
+
+.publication-title-target {
+  display: none;
+}
+
+.publication-tags {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 0.35rem;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.publication-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.publication-search-term {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.publications .title a {
+  color: inherit;
+}
+
+.publications .title a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.publications h2.bibliography {
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.publications ol.bibliography {
+  padding-left: 0;
+  margin-bottom: 2.25rem;
+  list-style: none;
+}
+
+.publications ol.bibliography > li {
+  padding: 1.15rem 1.35rem;
+  margin-bottom: 0.85rem;
+  overflow-wrap: anywhere;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: 0 3px 14px rgb(15 23 42 / 5%);
+}
+
+.publications ol.bibliography > li > .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.publications ol.bibliography > li > .row > .col-sm-10:only-child {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.publications ol.bibliography > li .title {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  line-height: 1.45;
+}
+
+.publications ol.bibliography > li .title > a {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.publications ol.bibliography > li .links {
+  margin-top: 0.45rem;
+}
+
+.publications ol.bibliography > li > :last-child,
+.publications ol.bibliography > li > .row > :last-child > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .publications h2.bibliography {
+    margin-top: 2rem;
+  }
+
+  .publications ol.bibliography > li {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+  }
+}
